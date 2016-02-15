@@ -1,0 +1,10 @@
+*.min.*
+*~
+tags
+todo.*
+.vim/
+.git/
+.tmp/
+.logs/
+
+
