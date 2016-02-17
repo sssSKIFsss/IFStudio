@@ -305,6 +305,8 @@ function accesspress_footer_count(){
 function accesspress_social_cb(){
 	$facebooklink = of_get_option('facebook');
 	$twitterlink = of_get_option('twitter');
+	$vkontaktelink = of_get_option('vkontakte');
+	$odnoklassnikilink = of_get_option('odnoklassniki');
 	$google_pluslink = of_get_option('google_plus');
 	$youtubelink = of_get_option('youtube');
 	$pinterestlink = of_get_option('pinterest');
@@ -321,6 +323,14 @@ function accesspress_social_cb(){
 
 		<?php if(!empty($twitterlink)){ ?>
 		<a href="<?php echo esc_url($twitterlink); ?>" class="twitter" data-title="Twitter" target="_blank"><i class="fa fa-twitter"></i><span></span></a>
+		<?php } ?>
+
+		<?php if(!empty($vkontaktelink)){ ?>
+		<a href="<?php echo esc_url($vkontaktelink); ?>" class="vkontakte" data-title="В контакте" target="_blank"><i class="fa fa-vk"></i><span></span></a>
+		<?php } ?>
+
+		<?php if(!empty($odnoklassnikilink)){ ?>
+		<a href="<?php echo esc_url($odnoklassnikilink); ?>" class="odnoklassniki" data-title="Однокласники" target="_blank"><i class="fa fa-odnoklassniki"></i><span></span></a>
 		<?php } ?>
 
 		<?php if(!empty($google_pluslink)){ ?>

@@ -54,39 +54,30 @@ get_header();
 							case 'default_template':
 								$template = "layouts/default";
 								break;
-
 							case 'service_template':
 								$template = "layouts/service";
 								break;
-
 							case 'team_template':
 								$template = "layouts/team";
 								break;
-
 							case 'portfolio_template':
 								$template = "layouts/portfolio";
 								break;
-
 							case 'testimonial_template':
 								$template = "layouts/testimonial";
 								break;
-
 							case 'action_template':
 								$template = "layouts/action";
 								break;
-
 							case 'blank_template':
 								$template = "layouts/blank";
 								break;
-
 							case 'googlemap_template':
 								$template = "layouts/googlemap";
 								break;
-
 							case 'blog_template':
 								$template = "layouts/blog";
 								break;
-							
 							default:
 								$template = "layouts/default";
 								break;

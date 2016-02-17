@@ -72,7 +72,6 @@
 		</nav><!-- #site-navigation -->
 		</div>
 
-
 		<?php 
 		if(of_get_option('show_social') == 1):
 			do_action('accesspress_social');

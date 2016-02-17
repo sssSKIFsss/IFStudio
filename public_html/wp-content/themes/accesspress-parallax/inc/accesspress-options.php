@@ -331,6 +331,16 @@ function optionsframework_options() {
 		'type' => 'url');
 
 	$options[] = array(
+		'name' => __('Vkontakte', 'accesspress-parallax'),
+		'id' => 'vkontakte',
+		'type' => 'url');
+
+	$options[] = array(
+		'name' => __('Odnoklassniki', 'accesspress-parallax'),
+		'id' => 'odnoklassniki',
+		'type' => 'url');
+
+	$options[] = array(
 		'name' => __('Google Plus', 'accesspress-parallax'),
 		'id' => 'google_plus',
 		'type' => 'url');

@@ -1834,26 +1834,25 @@ Responsive grid for pages
   margin-left:0;
 }
 
-
 .span1{
   width: 14.1666666667%;
-  
+
 }
 .span2{
   width: 31.3333333333%;
-  
+
 }
 .span3{
   width: 48.5%;
-  
+
 }
 .span4{
   width: 65.6666666667%;
-  
+
 }
 .span5{
   width: 82.8333333333%;
-  
+
 }
 .span6{
   width: 100%;
