@@ -35,6 +35,7 @@ function optionsframework_options() {
 		'action_template' => __('Call to Action Section', 'accesspress-parallax'),
 		'googlemap_template' => __('Google Map Section', 'accesspress-parallax'),
 		'blank_template' => __('Blank Section', 'accesspress-parallax'),
+		'contacts_template' => __('Contacts Section', 'accesspress-parallax'),
 	);
 
 	$check = array(

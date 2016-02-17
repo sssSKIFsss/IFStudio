@@ -90,6 +90,10 @@
 								$template = "layouts/blog";
 								break;
 							
+							case 'contacts_template':
+								$template = "layouts/contacts";
+								break;
+
 							default:
 								$template = "layouts/default";
 								break;

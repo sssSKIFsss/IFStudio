@@ -441,6 +441,3 @@
 #google-map .overlay { background:url(<?php echo get_template_directory_uri(); ?>/images/overlay0.png);}
 #content{margin:0 !important}
 </style>
-
-
-d

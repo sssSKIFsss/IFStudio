@@ -91,7 +91,9 @@ jQuery(document).ready(function($) {
 
 	$('#section-parallax_section .of-section-layout').each(function() {
         var IntlayoutValue = $(this).val();
-        if (IntlayoutValue == 'service_template' || IntlayoutValue == 'team_template' || IntlayoutValue == 'testimonial_template' || IntlayoutValue == 'blog_template' || IntlayoutValue == 'portfolio_template') {
+        if (IntlayoutValue == 'service_template' || IntlayoutValue == 'team_template' || 
+					IntlayoutValue == 'testimonial_template' || IntlayoutValue == 'blog_template' || 
+					IntlayoutValue == 'portfolio_template' || IntlayoutValue == 'contacts_template') {
             $(this).parents('.sub-option-inner').find('.toggle-category').show();
         } else {
             $(this).parents('.sub-option-inner').find('.toggle-category').hide();
@@ -100,7 +102,9 @@ jQuery(document).ready(function($) {
 
     $(document).on('change', '.of-section-layout', function() {
         var layoutValue = $(this).val();
-        if (layoutValue == 'service_template' || layoutValue == 'team_template' || layoutValue == 'testimonial_template' || layoutValue == 'blog_template' || layoutValue == 'portfolio_template') {
+        if (layoutValue == 'service_template' || layoutValue == 'team_template' || 
+					layoutValue == 'testimonial_template' || layoutValue == 'blog_template' || 
+					layoutValue == 'portfolio_template' || layoutValue == 'contacts_template') {
             $(this).parents('.sub-option-inner').find('.toggle-category').fadeIn();
         } else {
             $(this).parents('.sub-option-inner').find('.toggle-category').fadeOut();

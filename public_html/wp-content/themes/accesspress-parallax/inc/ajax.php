@@ -47,6 +47,7 @@
 	<option value="action_template"><?php _e('Call to Action Section', 'accesspress-parallax') ?></option>
 	<option value="googlemap_template"><?php _e('Google Map Section', 'accesspress-parallax') ?></option>
 	<option value="blank_template"><?php _e('Blank Section', 'accesspress-parallax') ?></option>
+	<option value="contacts_template"><?php _e('Contacts Section', 'accesspress-parallax') ?></option>
 </select>
 </div>
 

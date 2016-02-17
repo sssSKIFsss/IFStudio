@@ -484,6 +484,7 @@ function of_recognized_layout() {
 		'action_template' => __('Call to Action Section', 'accesspress-parallax'),
 		'googlemap_template' => __('Google Map Section', 'accesspress-parallax'),
 		'blank_template' => __('Blank Section', 'accesspress-parallax'),
+		'contacts_template' => __('Contacts Section', 'accesspress-parallax'),
 		);
 	return apply_filters( 'of_recognized_layout', $default );
 }
