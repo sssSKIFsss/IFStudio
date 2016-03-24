@@ -42,16 +42,12 @@
 			</div>
 		</div>
 		<?php endif; ?>
-		
 
 		<div class="bottom-footer">
 			<div class="mid-content clearfix">
 				<div  class="copy-right">
 					&copy; <?php echo date('Y')." "; bloginfo('name'); ?>  
 				</div><!-- .copy-right -->
-				<div class="site-info">
-					<a href="http://wp-templates.ru/" title="Шаблоны WordPress">WordPress</a> - <a href="http://builderbody.ru/metkon-trenirovka/" title="Меткон тренировка">Меткон</a>
-				</div><!-- .site-info -->
 			</div>
 		</div>
 	</footer><!-- #colophon -->
