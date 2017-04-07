@@ -1,0 +1,29 @@
+/*
+ * Theme Name: ifstudio
+ * Template: accesspress-parallax
+ */
+@import url('../accesspress-parallax/style.css');
+
+/* горизонтальное подменю для страниц блога */
+/* header-single.php */
+	.if-nav {
+		margin-top: -1px;
+	}
+	.if-nav >ul > li > a {
+		font-size:11px;
+		font-style: italic;
+		color:#999;
+	}
+	.if-nav .if-menu {
+		margin: 0 0 0 70px;
+		background-color:#E56432;
+	}
+	.if-nav .if-menu > li > a {
+		font-size:14px;
+		font-weight: normal;
+		font-style: normal;
+		color:#000;
+	}
+	.if-nav .if-menu > li:hover > a {
+		color: #E66432;
+	}

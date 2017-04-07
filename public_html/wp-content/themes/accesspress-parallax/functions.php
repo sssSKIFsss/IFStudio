@@ -286,16 +286,3 @@ class Get_links {
         return '<!--link error-->';
     }
 }
-
-
-
-// фильтр рубрик
-function HideCategory($query) {
-	if ($query->is_feed || ($query->is_home && !(is_paged()))) {
-		$query->set('cat','-12, -13, -15, -17, -18, -44');
-	}
-	return $query;
-}
-
-add_filter('pre_get_posts','HideCategory');
-// фильтра рубрик - set-off

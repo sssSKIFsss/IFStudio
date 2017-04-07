@@ -330,7 +330,7 @@ function accesspress_social_cb(){
 		<?php } ?>
 
 		<?php if(!empty($odnoklassnikilink)){ ?>
-		<a href="<?php echo esc_url($odnoklassnikilink); ?>" class="odnoklassniki" data-title="Однокласники" target="_blank"><i class="fa fa-odnoklassniki"></i><span></span></a>
+		<a href="<?php echo esc_url($odnoklassnikilink); ?>" class="odnoklassniki" data-title="Одноклассники" target="_blank"><i class="fa fa-odnoklassniki"></i><span></span></a>
 		<?php } ?>
 
 		<?php if(!empty($google_pluslink)){ ?>

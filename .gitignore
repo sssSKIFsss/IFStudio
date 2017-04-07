@@ -1,10 +1,7 @@
-*.min.*
-*~
 tags
-todo.*
-.vim/
 .git/
-.tmp/
-.logs/
-
+.idea/
+public_html/*.*
+public_html/wp-admin/
+public_html/wp-includes/
 
